@@ -1,0 +1,5 @@
+14:59:44.590 [TestNG-tests-1] INFO  demo.Base - Navigated to URL
+14:59:51.090 [TestNG-tests-1] INFO  demo.Base - On Landing Page
+14:59:51.091 [TestNG-tests-1] INFO  demo.Base - On Login Page
+14:59:56.434 [TestNG-tests-1] INFO  demo.Base - Driver is initialized
+14:59:58.389 [TestNG-tests-1] INFO  demo.Base - Navigated to URL

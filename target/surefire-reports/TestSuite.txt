@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 52.673 s <<< FAILURE! - in TestSuite
+demo.Home.validateTitle  Time elapsed: 8.807 s  <<< FAILURE!
+java.lang.AssertionError: expected [Rahul Shetty Academy] but found [Rahul Shetty Academ]
+	at demo.Home.validateTitle(Home.java:28)
+

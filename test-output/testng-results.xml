@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="52882" started-at="2021-11-24T06:48:13Z" finished-at="2021-11-24T06:49:06Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="52882" started-at="2021-11-24T06:48:13Z" finished-at="2021-11-24T06:49:06Z">
+      <class name="demo.Home">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:demo.Home@add0edd]" name="login" duration-ms="23741" started-at="2021-11-24T06:48:13Z" data-provider="getData" finished-at="2021-11-24T06:48:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pmrreddypmr@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Powertrain@10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:demo.Home@add0edd]" name="login" duration-ms="17045" started-at="2021-11-24T06:48:37Z" data-provider="getData" finished-at="2021-11-24T06:48:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pmrreddypmr@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Powertrain@20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="validateTitle()[pri:0, instance:demo.Home@add0edd]" name="validateTitle" duration-ms="11567" started-at="2021-11-24T06:48:54Z" finished-at="2021-11-24T06:49:06Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Rahul Shetty Academy] but found [Rahul Shetty Academ]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Rahul Shetty Academy] but found [Rahul Shetty Academ]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at demo.Home.validateTitle(Home.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+      </class> <!-- demo.Home -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
