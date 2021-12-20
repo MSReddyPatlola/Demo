@@ -53,6 +53,9 @@ public class Home extends Base{
 		
 		data[1][0] = "pmrreddypmr@gmail.com";
 		data[1][1] = "Powertrain@20";
+		
+		data[2][0] = "2pmrreddypmr@gmail.com";
+		data[2][1] = "2Powertrain@20";
 		return data;
 		
 	}
